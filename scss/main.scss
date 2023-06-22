@@ -1,0 +1,543 @@
+//VARIABLES-utilities
+@import "../scss/utilities/variables" ;
+
+//BASE
+@import "../scss/base/typo";
+@import "../scss/base/reset";
+
+//LAYOUT
+@import "../scss/layout/navigation";
+@import "../scss/layout/header";
+@import "../scss/layout/footer";
+
+//VIEWS
+@import "../scss/views/home.scss";
+@import "../scss/views/familia";
+@import "../scss/views/adopcion";
+@import "../scss/views/voluntarios";
+@import "../scss/views/informacion";
+
+
+
+// body{
+//     background-image: url(../jpg/fondo\ web.jpg);
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-attachment: fixed;
+ 
+// }
+// .navbar {
+//     .collapse.navbar-collapse {
+//         flex-grow: inherit;
+//     }
+// }
+
+
+// INICIO 
+// .main {
+//     display: grid;
+//     grid-template-columns: 1fr 2fr 1fr;
+//     grid-template-rows: 600px;
+//     grid-template-areas: 
+//     "titulo imagenes parrafo";
+//     align-items: center;
+//     justify-items: center;
+
+//     @media (max-width: 700px) {
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     grid-template-rows: 55px 450px 65px;
+//     grid-template-areas: 
+//     "titulo"
+//     "imagenes"
+//     "parrafo";
+//     row-gap: 20px;
+//     margin-bottom: 40px;
+//     }
+//     .main-titulo {
+//         grid-area: titulo;
+//         font-size: 50px;
+//         @media (max-width: 700px) {
+//             font-size: 40px;
+//         }
+//     }
+//     .main-imagenes {
+//         grid-area: imagenes;
+        
+//         .seccion-imagenes {
+//             display: flex;
+//             width: 450px;
+//             height: 450px;
+//             img {
+//                 width: 0px;
+//                 flex-grow: 1;
+//                 object-fit: cover;
+//                 opacity: 8;
+//                 transition: 2s ease;
+//                 &:hover {
+//                     cursor: crosshair;
+//                     width: 300px;
+//                     opacity: 1;
+//                     filter : contrast(120%)
+//                 }
+//            }
+//         }
+//     }
+//     .main-parrafo {
+//         grid-area: parrafo;
+//         text-align: center;
+       
+//     }
+// }
+
+//FOOTER
+
+// .footer {
+//     color: aliceblue;
+//     background-color: #242628;
+//     margin: auto;
+//     .footer-container {
+//             display: flex;
+//             justify-content: space-evenly;
+//             align-items: center;
+//             @media (max-width: 700px) {
+//                 display: flex;
+//                 flex-direction: column;
+//                 justify-content: space-evenly;
+//             }
+//         .footer-contenido {
+//             display: flex;
+//             flex-direction: row;
+           
+//             .footer-texto {
+//                 width: 200px;
+//             }
+//             .footer-redes{
+//                 display: flex;
+//                 flex-direction: column;
+//             }
+//         }
+//         .footer-mapa {
+//             .mapa{
+//                 width: 450px;
+//             height: 200px;
+//             }
+//         }
+
+
+//     }
+//     .footer-copy {
+    
+//         background-color: #2b2a2b;
+//     }
+// }
+
+// FAMILIAS
+
+// .familia {
+//     .familia-container {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         justify-content: center;
+//         margin-bottom: 50px;
+        
+//         img{
+           
+//             margin-bottom: 40px;
+//         }
+//     }
+// }
+   
+// .adoptados {
+//    display: flex;
+//    padding: 0 20px;
+//    flex-wrap: wrap;
+//    flex-direction: column;
+//    align-items: center;
+//     @media(max-width:780px) {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     }
+//     .adoptados-container {
+//         background: linear-gradient(to right, #43c6ac, #f8ffae);
+//         display: flex;
+//         align-items: center;
+//         width: 950px;
+//         height: 450px;
+//         border-radius: 40px;
+        
+//         margin-bottom: 50px;
+//         @media(max-width:780px) {
+//             display: flex;
+//             flex-direction: row;
+//             width: 500px;
+//             }
+//     .adoptados-imagen {
+//         max-width: 1000px;
+//         min-width: 320px;
+//         margin: 15px;
+        
+//         img {
+//             width: 100%;
+//             height: 400px;
+//             box-shadow: 1px 1px 4px 2px rgb(0,0,0,0.2);
+//             border-radius: 40px;
+//         }
+//     }
+//     .adoptados-descripcion {
+//         text-align: center;
+//         margin-top: 50px;
+//         p {
+//             margin: 28px 30px;
+           
+//         }
+//     }
+//     }
+// }
+
+
+
+
+// ADOPCION
+
+// .requisitos {
+//     display: flex;
+//     flex-direction: column;
+//     margin: 20px;
+    
+    
+
+//     .titulo {
+//         text-align: center;
+//     }
+//     .contenido {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: center;
+//         @media (max-width: 700px) {
+//             display: flex;
+//             flex-direction: column;
+//             align-items: center;
+//         }
+//         .imagen {
+//             width: 300px;
+//             height: 300px;
+            
+//             img {
+//                 border-radius: 20px;
+//                 @media (max-width: 700px) {
+//                     height: 300px;
+//                     width: 300px;
+//                     border-radius: 20px;
+//                 } 
+//             }
+//         }
+            
+//         .contexto-titulo {
+//             border-radius: 20px;
+//             background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
+//             flex-direction: column;
+//         p {
+//             text-align: center;
+//             font-size: 20px;
+//         }
+//         .contexto-sec{
+//             font-size: 15px;
+//             }
+//         }
+//     }
+// }
+// .adopciones-contenido {
+  
+//     .adopciones-encabezado {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         @media (max-width: 700px) {
+//             text-align: center;
+//         } 
+//     }
+//     .adopciones {
+//         @media (max-width: 700px) {
+//             display: flex;
+//             flex-direction: column;
+//             width: 480px;
+//             align-content: center;
+//         } 
+      
+//         display: flex;
+//         flex-wrap: wrap;
+//         justify-content: space-between;
+//         // width: 900px;
+//         // height: 100vh;
+       
+//          .adopciones-container {
+//             position: relative;
+//             height: 250px;
+//             overflow: hidden;
+//             border-radius: 6px;
+//             box-shadow: 0px 15px 25px
+//             rgba(0,0,0,0.50);
+//             display: flex;
+//             align-items: center;
+//             cursor: pointer;
+//             transition: all .1s;
+//             &:hover .adopciones-info {
+//                 opacity: 1;
+//                 visibility: visible;
+//             }
+//             @media (max-width: 700px) {
+//                 margin: 20px;
+//             } 
+//             img {
+//                 width: 100%;
+//                 height: 100%;
+//                 transition: all 500ms ease-out;
+//                 @media (max-width: 700px) {
+//                     display: flex;
+//                     flex-direction: column;
+//                 } 
+              
+               
+//             }
+//             .adopciones-info {
+//                 position: absolute;
+//                 top: 0;
+//                 width: 100%;
+//                 height: 100%;
+//                 background-color: rgba(245, 216, 219, 0.5);
+//                 transition: all 500ms ease-out;
+//                 text-align: center;
+//                 opacity: 0;
+//                 visibility: hidden;
+              
+                
+//                 h2 {
+//                     color: rgb(12, 12, 12);
+//                     font-weight: 400;
+//                     margin-top: 30px;
+//                     margin-bottom: 120px;
+//                     transition: all 1s; 
+//                     &:hover{
+//                         margin-top: 70px;
+//                         margin-bottom: 15px;
+//                     }
+                   
+//                 }
+//                 p {
+//                     color: rgb(2, 2, 2);
+//                     font-size: 13px;
+//                     line-height: 1.5;
+//                     width: 100%;
+//                     max-width: 220px;
+//                     margin: auto;
+    
+//                 }
+               
+    
+//             }
+//         }
+//     }
+// }
+
+
+// .adopciones-contenido {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     // 384/487 alto
+//     .adopciones {
+//         display: flex;
+//         flex-wrap: wrap;
+//         justify-content: space-between;
+//         width: 900px;
+//         height: 180vh;
+//         .adopciones-container {
+//             position: relative;
+//             height: 250px;
+//             width: 250px;
+//             overflow: hidden;
+//             border-radius: 6px;
+//             box-shadow: 0px 15px 25px
+//             rgba(0,0,0,0.50);
+//             display: flex;
+//             align-items: center;
+//             cursor: pointer;
+//             transition: all .1s;
+//             &:hover .adopciones-info {
+//                 opacity: 1;
+//                 visibility: visible;
+//             }
+    
+           
+//             img {
+//                 width: 100%;
+//                 height: 100%;
+//                 transition: all 500ms ease-out;
+              
+               
+//             }
+//             .adopciones-info {
+//                 position: absolute;
+//                 top: 0;
+//                 width: 100%;
+//                 height: 100%;
+//                 background-color: rgba(245, 216, 219, 0.5);
+//                 transition: all 500ms ease-out;
+//                 text-align: center;
+//                 opacity: 0;
+//                 visibility: hidden;
+              
+                
+//                 h2 {
+//                     color: rgb(12, 12, 12);
+//                     font-weight: 400;
+//                     margin-top: 30px;
+//                     margin-bottom: 120px;
+//                     transition: all 1s; 
+//                     &:hover{
+//                         margin-top: 70px;
+//                         margin-bottom: 15px;
+//                     }
+                   
+//                 }
+//                 p {
+//                     color: rgb(2, 2, 2);
+//                     font-size: 13px;
+//                     line-height: 1.5;
+//                     width: 100%;
+//                     max-width: 220px;
+//                     margin: auto;
+    
+//                 }
+               
+    
+//             }
+//         }
+//     }
+// }
+
+// VOLUNTARIOS
+// .formulario {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-evenly;
+//     margin-bottom: 40px;
+//     @media (max-width:780px) {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         margin-bottom: 40px;
+//     }
+
+//     .formulario-foto {
+//         img{
+//             height: 450px;
+//             border-radius: 20px;
+//         }
+//     }
+        
+
+//     form {
+//         width: 450px;
+//         // margin: auto;
+//         background-color: rgba(0,0,0,0.4);
+//         padding: 10px 20px;
+//         box-sizing: border-box;
+//         margin-top: 20px;
+//         border-radius: 7px;
+//         @media (max-width:480px) {
+//             width: 100%;
+//         }
+    
+//         h2 {
+//             color:aliceblue;
+//             text-align: center;
+//             margin: 0;
+//             font-size: 30px;
+//             margin-bottom: 20px;
+//         }
+//         .controls, .boton{
+//             width: 100%;
+//             margin-bottom: 20px;
+//             padding: 7px;
+//             box-sizing: border-box;
+//             font-size: 17px;
+//             border: none;
+//         }
+            
+//         .boton {
+//             background-color:rgb(76, 90, 111);
+//             padding: 10px;
+//             color: rgb(0, 0, 0);
+//             &:hover {
+//                 cursor: pointer;
+//             }
+//         }
+//     }
+// }
+
+
+// INFORMACION
+// .informacion-titulo {
+//     margin-bottom: 40px;
+//     display: flex;
+//     justify-content: center;
+//     background: linear-gradient(to right, #be93c5, #7bc6cc);
+// }
+
+// .informacion {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-evenly;
+//     @media (max-width:780px) {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//     }
+//     .informacion-imagen {
+//         img {
+//             height: 560px;
+//         }
+//     }
+//     .informacion-info {
+//         width: 500px;
+//         p {
+//             font-size: 15px;
+//         }
+//     }
+// }
+
+// .nosotros {
+//     display: flex;
+//     flex-direction: column;
+//     .nosotros-titulo {
+//         background: linear-gradient(to right, #be93c5, #7bc6cc);
+//         text-align: center;
+//     }
+//     .nosotros-contenido {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: center;
+//         align-items: center;
+//         @media (max-width:780px) {
+//             display: flex;
+//             flex-direction: column;
+//             align-items: center;
+//             justify-content: center;
+//         }
+//         .nosotros-parrafo {
+//             width: 300px;
+            
+//         }
+//         .nosotros-imagen {
+//             img {
+//                 width: 400px;
+//             } 
+//         }
+//     }
+    
+// }
